@@ -1,0 +1,13 @@
+apply plugin: 'groovy'
+
+apply plugin: 'application'
+mainClassName = 'hello.HelloWorld'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.codehaus.groovy:groovy-all:2.4.3'
+	testCompile 'junit:junit:4.12'
+}

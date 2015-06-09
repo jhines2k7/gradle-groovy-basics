@@ -6,7 +6,10 @@ class HelloWorld {
 		myList.each { println it }
 
 		def greeter = new Greeter()
-
 		greeter.greet()
+
+		def car = new Car(2015, 10000)
+		println 'This new car is a ' + car.year + ' model.'
+		println 'And it has ' + car.miles + ' miles.'
 	}
 }
